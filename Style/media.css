@@ -1,0 +1,221 @@
+@media (max-width:1600px){
+    .header-top__left{
+        padding-left: 170px;
+    }
+    .header-top__ul{
+        padding-right: 170px;
+    }
+    .header-bottom__box{
+        padding-left: 170px;
+    }
+    .header-bottom__list{
+        padding-right: 170px;
+    }
+    .header-bottom__link{
+        padding: 10px;
+    }
+    .intro__box-title{
+        padding-left: 170px;
+    }
+    .intro__box-title-h3{
+        padding-left: 170px;
+    }
+    .intro__box-text{
+        padding: 18px 170px;
+    }
+    .intro__box-price-title-btn{
+        padding: 70px 170px;
+    }
+    .footer-top__box{
+        padding: 42px 170px;
+    }
+    .about__section{
+        padding: 0 100px;
+    }
+    
+}
+@media (max-width:1200px){
+    .header-top__left{
+        padding-left: 100px;
+    }
+    .header-top__ul{
+        padding-right: 100px;
+    }
+    .header-bottom__box{
+        padding-left: 100px;
+    }
+    .header-bottom__list{
+        padding-right: 70px;
+    }
+    .header-bottom__item{
+        padding: 0 15px;
+    }
+    .intro__box-title{
+        padding-left: 100px;
+    }
+    .intro__box-title-h3{
+        padding-left: 100px;
+    }
+    .intro__box-text{
+        padding: 18px 100px;
+    }
+    .intro__box-price-title-btn{
+        padding: 70px 100px;
+    }
+    .main__product{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;        
+    }
+    .footer-top__box{
+        padding: 42px 100px;
+    }
+    .about__title{
+        padding: 100px 414px;
+    }
+}
+@media (max-width:992px){
+    .header-top__left{
+        padding-left: 50px;
+    }
+    .header-top__ul{
+        padding-right: 50px;
+    }
+    .header-bottom__box{
+        padding-left: 50px;
+    }
+    .header-bottom__list{
+        padding-right: 20px;
+        
+    }
+    .header-bottom__item{
+        padding: 0 5px;
+    }
+    .intro__box-title{
+        font-size: 60px;
+        padding-left: 50px;
+        padding-top: 100px;
+    }
+    .intro__box-title-h3{
+        padding-left: 50px;
+    }
+    .intro__box-text{
+        padding: 18px 50px;
+    }
+    .intro__box-price-title-btn{
+        padding: 70px 50px;
+    }
+    .footer-top__box{
+        padding: 42px 50px;
+    }
+    .about__title{
+        font-size: 40px;
+        padding: 90px 200px;
+    }
+    .about__text{
+        font-size: 16px;
+    }
+}
+@media (max-width:768px){
+    .header-top__left{
+        padding-left: 10px;
+    }
+    .header-top__ul{
+        padding-right: 30px;
+    }
+    .header-bottom__box{
+        align-items: center;        
+    }
+    .header-bottom{
+        height: 118px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .header-bottom__box{
+        flex-direction: column;
+        padding-left: 30px;
+    }
+    .header-bottom__item{
+        padding: 0 5px;
+    }
+    .intro__box-price-title-btn{
+        flex-direction: column;
+        padding-top: 40px;
+    }
+    .intro__box-price-btn{
+        margin-top: 15px;
+    }
+    .main__product{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;        
+    }
+    .intro__box-title{
+        font-size: 35px;
+    }
+    .intro__box-title-h3{
+        font-size: 28px;
+    }
+    .intro__box-text{
+        font-size: 14px;
+    }
+    .main__product-text{
+        font-size: 16px;
+    }
+    .about__section{
+        padding: 0 60px;
+    }
+    .about__title{
+        padding-top: 70px;
+    }
+}
+@media (max-width:576px){
+    .header-top__container{
+        flex-direction: column;
+        padding-top: 5px;
+    }
+    .header-bottom{
+        height: 100%;
+    }
+    .header-bottom__box{
+        padding: 5px 15px 5px 15px;
+    }
+    .header-top__list{
+        font-size: 14px;
+        padding-top: 10px;
+    }
+    .header-bottom__box{
+        padding-top: 15px;
+    }
+    .header-bottom__list{
+        padding-right: 15px;
+        flex-wrap: wrap;
+        padding-top: 5px;
+    }
+    .header-bottom__link{
+        font-size: 18px;
+    }
+    .active{
+        height: 45px;
+    }
+    .section__header-box-item{
+        margin-left: 15px;
+    }
+    .main__product-text{
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .footer-top__box{
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about__section{
+        padding: 0 30px;
+    }
+    .about__title{
+        padding: 90px 70px;
+    }
+}
